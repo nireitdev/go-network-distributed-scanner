@@ -5,6 +5,18 @@ For educational purposes only.
 
 WIP! A lot of refactoring is needed.
 
+# How
+
+```mermaid
+graph LR
+    U((Manager)) -- IPs to scan --> B((Redis))    
+    B -- IP --> X{Worker 1}
+    B -- IP --> Y{Worker 2}
+    X -- results --> B
+    Y -- results --> B
+    B -- results open ports --> U
+```
+
 ## Using
 
 ## ToDo
