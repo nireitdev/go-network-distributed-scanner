@@ -57,4 +57,5 @@ Run "./worker" on remote servers and "./manager" on a local machine to send ips 
 
 - Save results in a DB for late analysis (mysql,sqlite,etc)
 - Replace redis server with a custom application with gRPC/SSL
+- Better documentation, yeah I know....
 
