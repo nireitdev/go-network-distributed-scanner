@@ -3,6 +3,9 @@ A simple network scanner showing open ports, like Nmap but in Go , multi-threadi
 
 For educational purposes only.
 
+Only scan first 1024 ports TCP.
+UDP scan is implemented, but not enabled due many false positives.
+
 WIP! A lot of refactoring is needed.
 
 # How
@@ -15,6 +18,10 @@ graph LR
     X -- results --> B
     Y -- results --> B
     B -- results open ports --> U
+    X --> M(pc host)
+    X --> N(pc host)
+    Y --> O(pc host)
+    Y --> P(pc host)
 ```
 
 ## Using
