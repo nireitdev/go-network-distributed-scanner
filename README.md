@@ -36,7 +36,7 @@ Just clone the repository and do a "make":
 ```bash
 
 git clone https://github.com/nireitdev/go-network-distributed-scanner.git
-cd go-network-distributed-scanner.git
+cd go-network-distributed-scanner
 cp config.yml.example  bin/config.yml
 make
 
