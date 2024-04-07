@@ -1,0 +1,12 @@
+# Main Worker configuration
+config:
+  threads: 5
+
+# Server configurations
+redis:
+  addr: "redisserver.example:11933"
+  user: "redisusername"
+  pass: "redispassword"
+  db: "0"
+
+
